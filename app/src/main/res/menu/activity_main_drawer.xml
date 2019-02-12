@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/call_hl"
+            android:title="Helpline No." />
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+
+        <item
+            android:id="@+id/mngac"
+            android:icon="@drawable/user_nav"
+            android:title="Manage Account" />
+
+        <item
+            android:id="@+id/nav_sagy"
+            android:icon="@drawable/nav_sagy"
+            android:title="About SAGY" />
+
+        <item
+            android:id="@+id/nav_appdroid"
+            android:icon="@drawable/nav_about"
+            android:title="About us" />
+        <item
+            android:id="@+id/navLogout"
+            android:icon="@drawable/nav_logout"
+            android:title="Log out" />
+    </group>
+
+    <item android:title="Contact">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share " />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Contact Us" />
+        </menu>
+    </item>
+
+</menu>

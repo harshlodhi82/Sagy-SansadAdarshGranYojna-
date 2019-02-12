@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_main"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.appdroid.admin.sagysansadadarshgramyojna.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="15dp"
+        android:layout_weight="1"
+        android:backgroundTint="#fd6cc2fc"
+        android:text="Adopted Villages"
+        android:textColor="@color/textbutton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/button3"
+        android:layout_alignParentStart="true"
+        android:layout_margin="15dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/sagy"
+        android:text="MP Yojana 2018"
+        android:textColor="@color/textbutton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/button6"
+        android:layout_alignParentStart="true"
+        android:layout_margin="15dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/sagy"
+        android:text="Village Maps"
+        android:textColor="@color/textbutton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.19999999" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/webviewyt"
+        android:layout_column="0"
+        android:layout_margin="15dp"
+        android:layout_row="1"
+        android:layout_weight="1"
+        android:backgroundTint="@color/sagy"
+        android:text="Members of Parliament"
+        android:textColor="@color/textbutton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.19999999" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/webviewyt"
+        android:layout_margin="15dp"
+        android:layout_toEndOf="@+id/webviewyt"
+        android:layout_weight="1"
+        android:backgroundTint="@color/sagyvideo"
+        android:text="Official Website"
+        android:textColor="@color/textbutton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39999998" />
+
+    <WebView
+        android:id="@+id/webviewyt"
+        android:layout_width="0dp"
+        android:layout_height="260dp"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+    </WebView>
+
+
+</android.support.constraint.ConstraintLayout>
